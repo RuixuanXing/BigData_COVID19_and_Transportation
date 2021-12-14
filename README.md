@@ -1,6 +1,6 @@
 # ETL / Cleaning:
 
-## Data Source 1 (Rachel Xing): New York State Statewide COVID-19 Testing
+## Data Source 1 (Rachel Xing @RuixuanXing): New York State Statewide COVID-19 Testing
 
 ### Input Location:
 
@@ -26,7 +26,7 @@
     - The cleaned output is `{YOUR_COVID_OUTPUT_PATH_2}/whole.csv` in HDFS.
 
 
-## Data Source 2 (Edward Zhu): New York City TLC Trip Record Data
+## Data Source 2 (Edward Zhu @EddieSource): New York City TLC Trip Record Data
 
 ### Input Location: 
 
@@ -41,7 +41,7 @@
     - The cleaned output path is `{YOUR_FHV_OUTPUT_PATH}/part-r-00000` in HDFS.
 
 
-## Data Source 3 (Larry Li): MTA Turnstile Data
+## Data Source 3 (Larry Li @86larryli): MTA Turnstile Data
 
 ### Input Location: 
 
@@ -59,7 +59,7 @@
 
 # Profiling:
 
-## Data Source 1 (Rachel Xing): New York State Statewide COVID-19 Testing
+## Data Source 1 (Rachel Xing @RuixuanXing): New York State Statewide COVID-19 Testing
 
 ### Input Location:
 
@@ -89,7 +89,7 @@
 
     - The output is `{YOUR_COVID_PROF_OUTPUT_PATH_3}/part-r-00000` in HDFS.
 
-## Data Source 2 (Edward Zhu): New York City TLC Trip Record Data
+## Data Source 2 (Edward Zhu @EddieSource): New York City TLC Trip Record Data
 
 ### Input Location: 
 
@@ -109,7 +109,7 @@
     
     - Run the script in `pyspark` shell: `profiling_code/fhv/pyspark_script.py`
 
-## Data Source 3 (Larry Li): MTA Turnstile Data
+## Data Source 3 (Larry Li @86larryli): MTA Turnstile Data
 
 ### Input Location:
 
@@ -135,7 +135,7 @@
 
 # Ingestion:
 
-## Data Source 1 (Rachel Xing): New York State Statewide COVID-19 Testing
+## Data Source 1 (Rachel Xing @RuixuanXing): New York State Statewide COVID-19 Testing
 
 ### Commands:
 
@@ -145,7 +145,7 @@
 
 3. Run the script in `Hive` shell: `data_ingest/covid_create_table.sql`
 
-## Data Source 2 (Edward Zhu): New York City TLC Trip Record Data
+## Data Source 2 (Edward Zhu @EddieSource): New York City TLC Trip Record Data
 
 ### Commands:
 
@@ -153,7 +153,7 @@
 
 2. Run the script in `Hive` shell: `data_ingest/fhv_create_table.sql`
 
-## Data Source 3 (Larry Li): MTA Turnstile Data
+## Data Source 3 (Larry Li @86larryli): MTA Turnstile Data
 
 ### Commands:
 
@@ -189,7 +189,7 @@
 
 # Analysis
 
-## Data Source 1 (Rachel Xing): New York State Statewide COVID-19 Testing
+## Data Source 1 (Rachel Xing @RuixuanXing): New York State Statewide COVID-19 Testing
 
 ### Commands:
 
@@ -201,7 +201,7 @@
 
     - **Screenshots of Running the Above Script is in `screenshots\covid_analysis[1-4].png`**
 
-## Data Source 2 (Edward Zhu): New York City TLC Trip Record Data
+## Data Source 2 (Edward Zhu @EddieSource): New York City TLC Trip Record Data
 
 ### Commands:
 
@@ -221,7 +221,7 @@
 
     - **Screenshots of Running the Above Commands is in `screenshots\trips_analysis[5-6].png`**
    
-## Data Source 3 (Larry Li): MTA Turnstile Data
+## Data Source 3 (Larry Li @86larryli): MTA Turnstile Data
 
 1. Open `Hive` Shell: `beeline`
 

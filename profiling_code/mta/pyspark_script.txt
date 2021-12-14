@@ -1,0 +1,2 @@
+df = spark.read.csv("{YOUR_MTA_PROF_OUTPUT_PATH}/part-r-00000")
+df.summary().show()
